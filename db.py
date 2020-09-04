@@ -79,3 +79,4 @@ def send_text(message):
     else:
         bot.send_message(message.chat.id, 'Не понимаю тебя! Отправь один смайлик!')
     
+bot.polling()
